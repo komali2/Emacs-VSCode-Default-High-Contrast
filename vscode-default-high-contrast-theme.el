@@ -68,8 +68,9 @@
  '(mmm-code-submode-face ((((background light)) (:background "LightGray")) (((background dark)) (:background "DimGray")) (t (:background "LightGray"))))
  '(mmm-comment-submode-face ((t (:background "#7ca668"))))
  '(mmm-default-submode-face ((t (:background "black"))))
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
  '(web-mode-html-tag-face ((t (:foreground "#569cd6"))))
- '(web-mode-html-attr-name-face ((t (:foreground "#9cdcfe")))))
+ '(web-mode-html-attr-name-face ((t (:foreground "#9cdcfe"))))
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
+ '(js2-function-param ((t (:foreground "#9cdcfe")))))
 
 (provide-theme 'vscode-default-high-contrast)
