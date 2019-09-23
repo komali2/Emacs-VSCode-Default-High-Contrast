@@ -55,7 +55,6 @@
  '(rainbow-delimiters-depth-2-face ((t (:foreground "#fff"))))
  '(rainbow-delimiters-depth-3-face ((t (:foreground "#fff"))))
  '(rainbow-delimiters-depth-6-face ((t (:foreground "#fff"))))
- '(evil-search-highlight-persist-highlight-face ((t (:box (:line-width 1 :color "#f38518")))))
  '(window-divider ((t (:foreground "#6fc3df"))))
  '(tool-bar ((t (:background "#fff" :foreground "#000" :box (:line-width 1 :style released-button)))))
  '(powerline-active0 ((t (:box (:line-width 1 :color "#f38518" :style released-button) :foreground "#fff" :background "black"))))
@@ -72,5 +71,6 @@
  '(web-mode-html-attr-name-face ((t (:foreground "#9cdcfe"))))
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
  '(js2-function-param ((t (:foreground "#9cdcfe")))))
-
+ '(evil-search-highlight-persist-highlight-face ((t (:background "#fff" :foreground "#002b36" :inverse-video t :box (:line-width 1 :color "#f38518")))))
+ '(evil-search-highlight-persist (t (:background "#fff" :foreground "#002b36" :inverse-video t :box (:line-width 1 :color "#f38518"))))
 (provide-theme 'vscode-default-high-contrast)
