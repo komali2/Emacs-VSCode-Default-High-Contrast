@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2019-06-12.")
+  "Created 2020-02-20.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -36,13 +36,13 @@
  '(header-line ((t (:underline (:color "#073642" :style line) :overline nil :box (:line-width 2 :color "#002b36" :style unspecified) :foreground "#839496" :background "#002b36"))))
  '(tooltip ((t (:foreground "#DEB542" :background "#7B6000" :inherit (variable-pitch)))))
  '(mode-line ((t (:background "#000" :foreground "#fff" :box (:line-width 1 :color "#073642" :style unspecified) :overline "#f38518" :underline "#284b54"))))
- '(mode-line-buffer-id ((t (:weight bold :foreground "#93a1a1"))))
+ '(mode-line-buffer-id ((t (:background "black" :foreground "#0000000" :weight bold :height 1.2 :width extra-expanded))))
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
  '(mode-line-inactive ((t (:underline (:color "#284b54" :style line) :overline "#073642" :box (:line-width 1 :color "#002b36" :style unspecified) :foreground "#586e75" :background "#002b36"))))
- '(isearch ((t (:weight normal :foreground "#002b36" :background "#d33682"))))
+ '(isearch ((t (:weight normal :box (:line-width 2 :color "#f38518") :foreground "#000000" :background "#848484"))))
  '(isearch-fail ((t (:weight bold :foreground "#dc322f" :background "#002b36"))))
- '(lazy-highlight ((t (:weight normal :foreground "#002b36" :background "#b58900"))))
+ '(lazy-highlight ((t (:box (:line-width 1 :color "#f38518")))))
  '(match ((t (:weight bold :foreground "#93a1a1" :background "#073642"))))
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((((class color) (min-colors 89)) (:background "#333333"))))
@@ -55,7 +55,7 @@
  '(rainbow-delimiters-depth-2-face ((t (:foreground "#fff"))))
  '(rainbow-delimiters-depth-3-face ((t (:foreground "#fff"))))
  '(rainbow-delimiters-depth-6-face ((t (:foreground "#fff"))))
- '(window-divider ((t (:foreground "#6fc3df"))))
+ '(window-divider ((t (:foreground "#9cdcfe" :width condensed))))
  '(tool-bar ((t (:background "#fff" :foreground "#000" :box (:line-width 1 :style released-button)))))
  '(powerline-active0 ((t (:box (:line-width 1 :color "#f38518" :style released-button) :foreground "#fff" :background "black"))))
  '(powerline-active1 ((t (:background "#000" :foreground "#fff"))))
@@ -70,7 +70,9 @@
  '(web-mode-html-tag-face ((t (:foreground "#569cd6"))))
  '(web-mode-html-attr-name-face ((t (:foreground "#9cdcfe"))))
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
- '(js2-function-param ((t (:foreground "#9cdcfe")))))
- '(evil-search-highlight-persist-highlight-face ((t (:background "#fff" :foreground "#002b36" :inverse-video t :box (:line-width 1 :color "#f38518")))))
- '(evil-search-highlight-persist (t (:background "#fff" :foreground "#002b36" :inverse-video t :box (:line-width 1 :color "#f38518"))))
+ '(mode-line-buffer-id-inactive ((t (:inherit (mode-line-buffer-id)))))
+ '(web-mode-keyword-face ((t (:foreground "#b180d7"))))
+ '(window-divider-last-pixel ((t (:foreground "gray40"))))
+ '(border ((t (:foreground "#9cdcfe")))))
+
 (provide-theme 'vscode-default-high-contrast)
