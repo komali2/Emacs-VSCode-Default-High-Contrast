@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2020-03-10.")
+  "Created 2020-04-06.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -74,7 +74,19 @@
  '(org-level-6 ((t (:inherit (outline-6)))))
  '(org-level-7 ((t (:inherit (outline-7)))))
  '(org-level-8 ((t (:inherit (outline-8)))))
+ '(js2-function-param ((t (:foreground "#9cdcfe"))))
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
- '(js2-function-param ((t (:foreground "#9cdcfe")))))
+ '(ediff-odd-diff-A ((t (:background "#7d7c7b"))))
+ '(ediff-odd-diff-B ((t (:background "#7d7c7b"))))
+ '(ediff-odd-diff-C ((t (:background "#7d7c7b"))))
+ '(ediff-fine-diff-A ((((class color) (min-colors 88) (background light)) (:background "#ffbbbb")) (((class color) (min-colors 88) (background dark)) (:background "#aa2222")) (((class color) (min-colors 16)) (:background "sky blue" :foreground "Navy")) (((class color)) (:weight bold :background "sky blue" :foreground "white")) (t (:stipple "gray3" :underline (:color foreground-color :style line)))))
+ '(ediff-fine-diff-B ((((class color) (min-colors 88) (background light)) (:background "#aaffaa")) (((class color) (min-colors 88) (background dark)) (:background "#22aa22")) (((class color) (min-colors 16)) (:background "cyan" :foreground "Black")) (((class color)) (:background "cyan3" :foreground "magenta3")) (t (:stipple "gray3" :underline (:color foreground-color :style line)))))
+ '(ediff-fine-diff-C ((((class color) (min-colors 88) (background light)) (:background "#ffff55")) (((class color) (min-colors 88) (background dark)) (:background "#aaaa22")) (((type pc)) (:background "Turquoise" :foreground "white")) (((class color) (min-colors 16)) (:background "Turquoise" :foreground "Black")) (((class color)) (:weight bold :background "Turquoise" :foreground "yellow3")) (t (:stipple "gray3" :underline (:color foreground-color :style line)))))
+ '(ediff-even-diff-A ((t (:background "#7d7c7b"))))
+ '(ediff-even-diff-B ((t (:background "#7c7b7d"))))
+ '(ediff-even-diff-C ((t (:background "#7c7b7d"))))
+ '(ediff-current-diff-A ((((class color) (min-colors 88) (background light)) (:background "#ffdddd")) (((class color) (min-colors 88) (background dark)) (:background "#553333")) (((class color) (min-colors 16)) (:background "pale green" :foreground "firebrick")) (((class color)) (:background "yellow3" :foreground "blue3")) (t (:inverse-video t))))
+ '(ediff-current-diff-B ((((class color) (min-colors 88) (background light)) (:background "#ddffdd")) (((class color) (min-colors 88) (background dark)) (:background "#335533")) (((class color) (min-colors 16)) (:background "Yellow" :foreground "DarkOrchid")) (((class color)) (:weight bold :background "yellow3" :foreground "magenta3")) (t (:inverse-video t))))
+ '(ediff-current-diff-C ((((class color) (min-colors 88) (background light)) (:background "#ffffaa")) (((class color) (min-colors 88) (background dark)) (:background "#888833")) (((class color) (min-colors 16)) (:background "Pink" :foreground "Navy")) (((class color)) (:weight bold :background "yellow3" :foreground "cyan3")) (t (:inverse-video t)))))
 
 (provide-theme 'vscode-default-high-contrast)
