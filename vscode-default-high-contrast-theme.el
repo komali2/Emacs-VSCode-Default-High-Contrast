@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2020-04-06.")
+  "Created 2020-04-30.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -36,7 +36,7 @@
  '(header-line ((t (:underline (:color "#073642" :style line) :overline nil :box (:line-width 2 :color "#002b36" :style unspecified) :foreground "#839496" :background "#002b36"))))
  '(tooltip ((t (:foreground "#DEB542" :background "#7B6000" :inherit (variable-pitch)))))
  '(mode-line ((t (:background "#000" :foreground "#fff" :box (:line-width 1 :color "#073642" :style unspecified) :overline "#f38518" :underline "#284b54"))))
- '(mode-line-buffer-id ((t (:background "black" :foreground "#0000000" :weight bold :height 1.2 :width extra-expanded))))
+ '(mode-line-buffer-id ((t (:background "black" :foreground "#ffffff" :weight bold :height 1.2 :width extra-expanded))))
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
  '(mode-line-inactive ((t (:underline (:color "#284b54" :style line) :overline "#073642" :box (:line-width 1 :color "#002b36" :style unspecified) :foreground "#586e75" :background "#002b36"))))
@@ -74,8 +74,16 @@
  '(org-level-6 ((t (:inherit (outline-6)))))
  '(org-level-7 ((t (:inherit (outline-7)))))
  '(org-level-8 ((t (:inherit (outline-8)))))
- '(js2-function-param ((t (:foreground "#9cdcfe"))))
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
+ '(mu4e-unread-face ((t (:foreground "#b180d7"))))
+ '(mu4e-header-face ((t (:inherit (default)))))
+ '(mu4e-flagged-face ((t (:weight bold :inherit (font-lock-constant-face)))))
+ '(mu4e-header-value-face ((t (:inherit (font-lock-type-face)))))
+ '(mu4e-view-body-face ((t (:inherit (default)))))
+ '(mu4e-header-highlight-face ((t (:box (:line-width 1 :color "#f38518")))))
+ '(mu4e-header-key-face ((t (:foreground "#b180d7" :weight bold))))
+ '(mu4e-header-title-face ((t (:inherit (font-lock-type-face)))))
+ '(mu4e-link-face ((t (:inherit (link)))))
  '(ediff-odd-diff-A ((t (:background "#7d7c7b"))))
  '(ediff-odd-diff-B ((t (:background "#7d7c7b"))))
  '(ediff-odd-diff-C ((t (:background "#7d7c7b"))))
@@ -88,5 +96,6 @@
  '(ediff-current-diff-A ((((class color) (min-colors 88) (background light)) (:background "#ffdddd")) (((class color) (min-colors 88) (background dark)) (:background "#553333")) (((class color) (min-colors 16)) (:background "pale green" :foreground "firebrick")) (((class color)) (:background "yellow3" :foreground "blue3")) (t (:inverse-video t))))
  '(ediff-current-diff-B ((((class color) (min-colors 88) (background light)) (:background "#ddffdd")) (((class color) (min-colors 88) (background dark)) (:background "#335533")) (((class color) (min-colors 16)) (:background "Yellow" :foreground "DarkOrchid")) (((class color)) (:weight bold :background "yellow3" :foreground "magenta3")) (t (:inverse-video t))))
  '(ediff-current-diff-C ((((class color) (min-colors 88) (background light)) (:background "#ffffaa")) (((class color) (min-colors 88) (background dark)) (:background "#888833")) (((class color) (min-colors 16)) (:background "Pink" :foreground "Navy")) (((class color)) (:weight bold :background "yellow3" :foreground "cyan3")) (t (:inverse-video t)))))
+'(js2-function-param ((t (:foreground "#9cdcfe"))))
 
 (provide-theme 'vscode-default-high-contrast)
