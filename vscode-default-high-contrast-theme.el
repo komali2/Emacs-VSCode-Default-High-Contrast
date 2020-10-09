@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2020-08-18.")
+  "Created 2020-10-09.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -60,7 +60,7 @@
  '(window-divider-last-pixel ((t (:foreground "gray40"))))
  '(border ((t (:foreground "#9cdcfe"))))
  '(org-level-1 ((t (:foreground "#b180d7"))))
- '(org-level-2 ((t (:inherit (outline-2)))))
+ '(org-level-2 ((t nil)))
  '(org-level-3 ((t (:foreground "#DCDCAA"))))
  '(org-level-4 ((t (:inherit (outline-4)))))
  '(org-level-5 ((t (:inherit (outline-5)))))
@@ -76,10 +76,14 @@
  '(mu4e-header-key-face ((t (:foreground "#b180d7" :weight bold))))
  '(mu4e-header-title-face ((t (:inherit (font-lock-type-face)))))
  '(mu4e-link-face ((t (:inherit (link)))))
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
  '(web-mode-javascript-string-face ((t (:inherit (web-mode-string-face)))))
  '(web-mode-string-face ((t (:foreground "#ce9178"))))
  '(web-mode-javascript-comment-face ((t (:foreground "#7ca668"))))
- '(web-mode-comment-face ((t (:foreground "#7ca668")))))
+ '(web-mode-comment-face ((t (:foreground "#7ca668"))))
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
+ '(custom-link ((t (:foreground "#9cdcfe" :underline t))))
+ '(org-headline-todo ((((class color) (min-colors 16) (background light)) (:foreground "Red4")) (((class color) (min-colors 16) (background dark)) (:foreground "Pink2")) (((class color) (min-colors 8) (background light)) (:bold t))))
+ '(org-checkbox-statistics-todo ((t (:foreground "#DBABA7"))))
+ '(org-todo ((t (:inherit bold :foreground "#D8ABA7" :box (:line-width 1 :color "#D8ABA7"))))))
 
 (provide-theme 'vscode-default-high-contrast)
