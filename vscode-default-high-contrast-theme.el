@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2021-01-11.")
+  "Created 2021-01-12.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -76,17 +76,23 @@
  '(mu4e-header-key-face ((t (:foreground "#b180d7" :weight bold))))
  '(mu4e-header-title-face ((t (:inherit (font-lock-type-face)))))
  '(mu4e-link-face ((t (:inherit (link)))))
- '(web-mode-javascript-string-face ((t (:inherit (web-mode-string-face)))))
- '(web-mode-string-face ((t (:foreground "#ce9178"))))
- '(web-mode-javascript-comment-face ((t (:foreground "#7ca668"))))
- '(web-mode-comment-face ((t (:foreground "#7ca668"))))
  '(custom-link ((t (:foreground "#9cdcfe" :underline t))))
  '(org-headline-todo ((((class color) (min-colors 16) (background light)) (:foreground "Red4")) (((class color) (min-colors 16) (background dark)) (:foreground "Pink2")) (((class color) (min-colors 8) (background light)) (:bold t))))
  '(org-checkbox-statistics-todo ((t (:foreground "#DBABA7"))))
  '(org-todo ((t (:inherit bold :foreground "#D8ABA7" :box (:line-width 1 :color "#D8ABA7")))))
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
+ '(web-mode-javascript-string-face ((t (:inherit (web-mode-string-face)))))
+ '(web-mode-string-face ((t (:foreground "#ce9178"))))
+ '(web-mode-javascript-comment-face ((t (:foreground "#7ca668"))))
+ '(web-mode-comment-face ((t (:foreground "#7ca668"))))
  '(web-mode-html-tag-face ((t (:inherit font-lock-constant-face))))
  '(web-mode-html-tag-custom-face ((t (:inherit web-mode-html-tag-face :slant italic))))
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
- '(web-mode-html-attr-name-face ((t (:inherit font-lock-variable-name-face)))))
+ '(web-mode-html-attr-name-face ((t (:inherit font-lock-variable-name-face))))
+ '(js2-function-param ((t (:inherit font-lock-variable-name-face))))
+ '(js2-object-property ((t (:inherit font-lock-variable-name-face))))
+ '(js2-object-property-access ((t (:inherit (js2-object-property)))))
+ '(js2-external-variable ((t (:foreground "#4EC9B0"))))
+ '(js2-function-call ((t (:inherit font-lock-function-name-face))))
+ '(org-document-title ((t (:inherit font-lock-keyword-face :weight bold :height 1.0)))))
 
 (provide-theme 'vscode-default-high-contrast)
