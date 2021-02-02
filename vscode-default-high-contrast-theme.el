@@ -92,6 +92,7 @@
  '(js2-object-property ((t (:inherit font-lock-variable-name-face))))
  '(js2-object-property-access ((t (:inherit (js2-object-property)))))
  '(js2-external-variable ((t (:foreground "#4EC9B0"))))
+ '(markdown-inline-code-face ((t (:foreground "#e2c08d"))))
  '(js2-function-call ((t (:inherit font-lock-function-name-face))))
  '(org-document-title ((t (:inherit font-lock-keyword-face :weight bold :height 1.0)))))
 
