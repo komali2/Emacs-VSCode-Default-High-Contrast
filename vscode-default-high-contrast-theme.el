@@ -60,7 +60,7 @@
  '(window-divider-last-pixel ((t (:foreground "gray40"))))
  '(border ((t (:foreground "#9cdcfe"))))
  '(org-level-1 ((t (:foreground "#b180d7"))))
- '(org-level-2 ((t nil)))
+ '(org-level-2 ((t (:foreground "#4EC9B0"))))
  '(org-level-3 ((t (:foreground "#DCDCAA"))))
  '(org-level-4 ((t (:inherit (outline-4)))))
  '(org-level-5 ((t (:inherit (outline-5)))))
