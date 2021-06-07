@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2021-01-12.")
+  "Created 2021-06-07.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -95,5 +95,8 @@
  '(markdown-inline-code-face ((t (:foreground "#e2c08d"))))
  '(js2-function-call ((t (:inherit font-lock-function-name-face))))
  '(org-document-title ((t (:inherit font-lock-keyword-face :weight bold :height 1.0)))))
+ '(org-document-title ((t (:inherit font-lock-keyword-face :weight bold :height 1.0))))
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
+ '(org-block ((t (:inherit nil :extend t :foreground "#b180d7")))))
 
 (provide-theme 'vscode-default-high-contrast)
