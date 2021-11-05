@@ -1,5 +1,5 @@
-(deftheme vscode-default-high-contrast
-  "Created 2021-06-18.")
+t
+  "Created 2021-11-03.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -114,6 +114,11 @@
  '(js2-external-variable ((t (:foreground "#4EC9B0"))))
  '(markdown-inline-code-face ((t (:foreground "#e2c08d"))))
  '(js2-function-call ((t (:inherit font-lock-function-name-face))))
+ '(org-agenda-date-today ((t (:box (:line-width 2 :color "#FFFFFF" :style released-button)))))
+ '(org-agenda-date ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
+ '(org-super-agenda-header ((t (:foreground "#b180d7"))))
+ '(org-scheduled-today ((t (:foreground "#9CDCFE"))))
+ '(org-upcoming-deadline ((t (:foreground "#808080"))))
 )
 
 (provide-theme 'vscode-default-high-contrast)
