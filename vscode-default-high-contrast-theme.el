@@ -1,5 +1,5 @@
-t
-  "Created 2021-11-03.")
+(deftheme vscode-default-high-contrast
+  "Created 2021-11-05.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -119,6 +119,7 @@ t
  '(org-super-agenda-header ((t (:foreground "#b180d7"))))
  '(org-scheduled-today ((t (:foreground "#9CDCFE"))))
  '(org-upcoming-deadline ((t (:foreground "#808080"))))
+ '(web-mode-keyword-face ((t :foreground "#C586C0")))
 )
 
 (provide-theme 'vscode-default-high-contrast)
