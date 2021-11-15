@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2021-11-08.")
+  "Created 2021-11-15.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -28,7 +28,7 @@
  '(font-lock-string-face ((t (:foreground "#ce9178"))))
  '(font-lock-type-face ((t (:foreground "#b58900"))))
  '(font-lock-variable-name-face ((t (:foreground "#9cdcfe"))))
- '(font-lock-warning-face ((t (:weight bold :foreground "#ff69b4" :inherit (error)))))
+ '(font-lock-warning-face ((t (:weight bold :foreground "#D16969" :inherit (error)))))
  '(button ((t (:underline (:color foreground-color :style line)))))
  '(link ((t (:underline t))))
  '(link-visited ((t (:weight normal :underline (:color foreground-color :style line) :foreground "#b58900"))))
@@ -118,6 +118,7 @@
  '(org-agenda-date ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
  '(org-super-agenda-header ((t (:foreground "#b180d7"))))
  '(org-scheduled-today ((t (:foreground "#9CDCFE"))))
+ '(org-scheduled((t (:foreground "#DCDCAA"))))
  '(org-upcoming-deadline ((t (:foreground "#bfbfbf"))))
  '(web-mode-keyword-face ((t :foreground "#C586C0")))
  '(org-upcoming-distant-deadline ((t (:foreground "#808080"))))
