@@ -1,5 +1,5 @@
 (deftheme vscode-default-high-contrast
-  "Created 2021-11-15.")
+  "Created 2021-12-22.")
 
 (custom-theme-set-faces
  'vscode-default-high-contrast
@@ -122,6 +122,7 @@
  '(org-upcoming-deadline ((t (:foreground "#bfbfbf"))))
  '(web-mode-keyword-face ((t :foreground "#C586C0")))
  '(org-upcoming-distant-deadline ((t (:foreground "#808080"))))
+ '(ahs-plugin-default-face ((t (:inherit (match)))))
 )
 
 (provide-theme 'vscode-default-high-contrast)
