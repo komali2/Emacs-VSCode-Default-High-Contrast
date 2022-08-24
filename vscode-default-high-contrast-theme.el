@@ -120,7 +120,7 @@
  '(org-scheduled-today ((t (:foreground "#9CDCFE"))))
  '(org-scheduled((t (:foreground "#DCDCAA"))))
  '(org-upcoming-deadline ((t (:foreground "#bfbfbf"))))
- '(web-mode-keyword-face ((t :foreground "#C586C0")))
+ '(web-mode-keyword-face ((t (:inherit font-lock-keyword-face))))
  '(org-upcoming-distant-deadline ((t (:foreground "#808080"))))
  '(ahs-plugin-default-face ((t (:inherit (match)))))
 )
