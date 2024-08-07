@@ -123,6 +123,7 @@
  '(web-mode-keyword-face ((t (:inherit font-lock-keyword-face))))
  '(org-upcoming-distant-deadline ((t (:foreground "#808080"))))
  '(ahs-plugin-default-face ((t (:inherit (match)))))
-)
+ '(org-roam-olp ((t (:inherit font-lock-function-name-face))))
+ )
 
 (provide-theme 'vscode-default-high-contrast)
